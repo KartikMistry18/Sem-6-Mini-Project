@@ -189,7 +189,7 @@ if selected == "Diabetes Prediction":
 
 if selected == "Diabetes Retinopathy":
   # Load your pre-trained model
-  model = tf.keras.models.load_model("64x3-CNN.model")
+  model = tf.keras.models.load_model("RetinoCNN.h5")
 
   # Function to preprocess the input image
   def preprocess_image(image):
